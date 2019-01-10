@@ -1,0 +1,17 @@
+{
+    "name": "mekawy/design-patterns",
+    "authors": [
+        {
+            "name": "Mekawy5",
+            "email": "mekawy.3f@hotmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Patterns\\": "DesignPatterns/"
+        }
+    }
+}
