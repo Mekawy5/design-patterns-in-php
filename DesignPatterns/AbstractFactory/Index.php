@@ -7,6 +7,9 @@ use Patterns\AbstractIndex;
 
 class Index extends AbstractIndex
 {
+    // abstract factory is suitable when you want to build multible related/dependent objects
+    // here, the factory ArabicBookFactory is a concrete factory of the AbstractBookFactory, which can build
+    // multible related objects "ArabicPHPBook & ArabicMyQLBook" of the same family "AbstractBook"
     public function index()
     {
         echo "Test Arabic Book Factory : \n";
